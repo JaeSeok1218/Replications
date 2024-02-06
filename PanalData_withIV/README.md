@@ -1,4 +1,5 @@
 # Brief Summary
+## Mian et.al(2014)
 **Research Question**: The effect of competition on price dispersion in the airline industry.
 
 **Data**: Panel data from 1993 to 2008
