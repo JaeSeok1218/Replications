@@ -79,6 +79,7 @@ datasummary2 <- datasummary(Heading("Monopoly") * column5 + Heading("Duopoly") *
 datasummary3 <- datasummary(Heading("Monopoly") * column1 + Heading("Duopoly") * column2 + Heading("Competitive") * column3 + Heading("All") * column4 ~ mean + sd, 
                             fmt=3, data = df3, add_columns = datasummary2[,c(2,3,4,5)], output = 'data.frame')
 
+# Using kableExtra, generate Latex Command lines
 kbl(datasummary3, booktabs = T, align = "c", caption = "PRICE DISPERSION BY MARKET STRUCTURE", "latex") %>%
   add_header_above(c(" ", "GINI" = 2, "HHI" = 2, "N" = 2)) %>%
   footnote(general = " $N$ represents carrier counts. Definitions of monopoly, duopoly, and competitive route are in note 19. 
