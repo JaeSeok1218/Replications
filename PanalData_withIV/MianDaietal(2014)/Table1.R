@@ -72,11 +72,16 @@ list_of_columns_padded <- lapply(list_of_columns3, function(x) {
 
 df3 <- as.data.frame(list_of_columns_padded)
 
-datasummary1 <- datasummary(Heading("Monopoly") * column9 + Heading("Duopoly") * column10 + Heading("Competitive") * column11 + Heading("All") * column12 ~ mean + sd, fmt=3, data = df1, output='data.frame')
-datasummary2 <- datasummary(Heading("Monopoly") * column5 + Heading("Duopoly") * column6 + Heading("Competitive") * column7 + Heading("All") * column8 ~ mean + sd, fmt=3, data = df2, add_columns = datasummary1[,c(2,3)], output='data.frame')
-datasummary3 <- datasummary(Heading("Monopoly") * column1 + Heading("Duopoly") * column2 + Heading("Competitive") * column3 + Heading("All") * column4 ~ mean + sd, fmt=3, data = df3, add_columns = datasummary2[,c(2,3,4,5)], output = 'data.frame')
+datasummary1 <- datasummary(Heading("Monopoly") * column9 + Heading("Duopoly") * column10 + Heading("Competitive") * column11 + Heading("All") * column12 ~ mean + sd, 
+                            fmt=3, data = df1, output='data.frame')
+datasummary2 <- datasummary(Heading("Monopoly") * column5 + Heading("Duopoly") * column6 + Heading("Competitive") * column7 + Heading("All") * column8 ~ mean + sd, 
+                            fmt=3, data = df2, add_columns = datasummary1[,c(2,3)], output='data.frame')
+datasummary3 <- datasummary(Heading("Monopoly") * column1 + Heading("Duopoly") * column2 + Heading("Competitive") * column3 + Heading("All") * column4 ~ mean + sd, 
+                            fmt=3, data = df3, add_columns = datasummary2[,c(2,3,4,5)], output = 'data.frame')
 
-kbl(datasummary3, booktabs = T, caption = "Summary", "latex") %>%
-  add_header_above(c(" ", "GINI" = 2, "HHI" = 2, "N" = 2))
+kbl(datasummary3, booktabs = T, align = "c", caption = "PRICE DISPERSION BY MARKET STRUCTURE", "latex") %>%
+  add_header_above(c(" ", "GINI" = 2, "HHI" = 2, "N" = 2)) %>%
+  footnote(general = " $N$ represents carrier counts. Definitions of monopoly, duopoly, and competitive route are in note 19. 
+           Standard deviations are in parentheses. Number of observations is 248,513", threeparttable = T)
 
 
