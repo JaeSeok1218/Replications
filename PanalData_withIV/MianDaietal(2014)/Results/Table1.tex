@@ -1,13 +1,22 @@
 \begin{table}
-\caption{Summary}
-\centering
-\begin{tabular}[t]{lllllll}\toprule
-\multicolumn{1}{c}{ } & \multicolumn{2}{c}{GINI} & \multicolumn{2}{c}{HHI} & \multicolumn{2}{c}{N} \\\cmidrule(l{3pt}r{3pt}){2-3}  \cmidrule(l{3pt}r{3pt}){4-5} \cmidrule(l{3pt}r{3pt}){6-7}  & mean & sd & mean  & sd  & mean   & sd  \\
-  \midrule
-Monopoly & 1.101 & 0.330 & 0.992 & 0.031 & 0.228 & 0.090\\
-  Duopoly & 2.075 & 0.287 & 0.595 & 0.092 & 0.237 & 0.086\\
-  Competitive & 3.411 & 0.861 & 0.443 & 0.111 & 0.224 & 0.076\\
-  All & 1.724 & 0.925 & 0.795 & 0.237 & 0.230 & 0.087\\
-  \bottomrule
-	\end{tabular}
+	\caption{PRICE DISPERSION BY MARKET STRUCTURE}
+	\centering
+\begin{threeparttable}
+\begin{tabular}[t]{ccccccc}
+	\toprule
+	\multicolumn{1}{c}{ } & \multicolumn{2}{c}{GINI} & \multicolumn{2}{c}{HHI} & \multicolumn{2}{c}{N} \\
+	\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5} \cmidrule(l{3pt}r{3pt}){6-7}
+	  & mean & sd & mean  & sd  & mean   & sd  \\
+	\midrule
+	Monopoly & 1.101 & 0.330 & 0.992 & 0.031 & 0.228 & 0.090\\
+	Duopoly & 2.075 & 0.287 & 0.595 & 0.092 & 0.237 & 0.086\\
+	Competitive & 3.411 & 0.861 & 0.443 & 0.111 & 0.224 & 0.076\\
+	All & 1.724 & 0.925 & 0.795 & 0.237 & 0.230 & 0.087\\
+	\bottomrule
+\end{tabular}
+\begin{tablenotes}
+	\item \textit{Note: } 
+	\item makecell[l]{ \$N\$ represents carrier counts. Definitions of monopoly, duopoly, and competitive route are in note 19. \           Standard deviations are in parentheses. Number of observations is 248,513}
+\end{tablenotes}
+\end{threeparttable}
 \end{table}
