@@ -1,4 +1,4 @@
-# Replications Projects
+# Replication Projects
 ## Introduction
 * Members
   - JaeSeok Oh
