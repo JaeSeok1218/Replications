@@ -9,4 +9,4 @@
 
 ### Table 3
 
-[<img src="./Results/Table3.png" title="Table 3" alt="Table 3" width="380.3" height="231"/>](./Table3.R)
+[<img src="./Results/Table3.png" title="Table 3" alt="Table 3" width="400.3" height="251"/>](./Table3.R)
