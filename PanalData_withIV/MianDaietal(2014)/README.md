@@ -6,3 +6,7 @@
 ### Table 2
 
 [<img src="./Results/Table2.png" title="Table 2" alt="Table 2" width="380.3" height="231"/>](./Table2.R)
+
+### Table 3
+
+[[<img src="./Results/Table2.png" title="Table 2" alt="Table 2" width="380.3" height="231"/>](./Table3.R)
