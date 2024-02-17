@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\caption{NONMONOTONIC EFFECT OF COMPETITION}
+\centering
+	\begin{threeparttable}
+		\begin{tabular}[t]{lcccccccc}\toprule\multicolumn{1}{c}{ } & \multicolumn{4}{c}{A. AirportPairs} & \multicolumn{4}{c}{B. City Pairs} \\\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}  & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\\midrule
+			$\widehat{HHI}$ &  {0.003} &  {0.560}*** &  &  &  {0.014}** &  {0.535}*** &  & \\ & ( {0.005}) & ( {0.116}) &  &  & ( {0.005}) & ( {0.096}) &  & \\
+			$\widehat{HHI^{2}}$ &  &  {-0.364}*** &  &  &  &  {-0.343}*** &  & \\ &  & ( {0.075}) &  &  &  & ( {0.062}) &  & \\
+			$\widehat{mono}$ &  &  &  {-0.011}*** &  &  &  &  {-0.012}*** & \\ &  &  & ( {0.003}) &  &  &  & ( {0.003}) & \\
+			$\widehat{comp}$ &  &  &  {-0.036}*** &  &  &  &  {-0.044}*** & \\ &  &  & ( {0.005}) &  &  &  & ( {0.006}) & \\
+			$\widehat{N}$ &  &  &  &  {-0.003}* &  &  &  &  {-0.006}***\\ &  &  &  & ( {0.001}) &  &  &  & ( {0.001})\\\midrule
+			Num.Obs. &  {248512} &  {248512} &  {248512} &  {248512} &  {239734} &  {239734} &  {239734} &  {239734}\\\bottomrule\multicolumn{9}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, ***}\\
+			\end{tabular}
+			\begin{tablenotes}
+				\item The dependent variable is Gini, and the hat represents the instrumented endogenous variable. Carrier-route and year-quarter fixed effects are included in all specifications. Robust standard erros in parentheses are adjusted for correlation within market. Control variables are $\log$(asset), $\log^{2}$(asset), cash (as \% of asset), operating cost (as \% of asset), and nonoperating net income (as \$ of asset), a dummy indicator if the carrier is under bankruptcy protextion. The list of instruments can be found in section A3.
+			\end{tablenotes}
+	\end{threeparttable}
+	\end{table}
