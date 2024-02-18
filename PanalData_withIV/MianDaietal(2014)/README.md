@@ -18,4 +18,4 @@
 
 ### Table 5
 
-[<img src="./Results/Table5.png" title="Table 5" alt="Table 5" width="380.3" height="231"/>](./Table5.R)
+[<img src="./Results/Table5.png" title="Table 5" alt="Table 5" width="380.3" height="181"/>](./Table5.R)
