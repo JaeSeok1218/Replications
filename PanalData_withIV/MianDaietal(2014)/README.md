@@ -9,7 +9,7 @@
 
 ### Table 3
 
-[<img src="./Results/Table3.png" title="Table 3" alt="Table 3" width="400.3" height="251"/>](./Table3.R)
+[<img src="./Results/Table3.png" title="Table 3" alt="Table 3" width="500.3" height="351"/>](./Table3.R)
 - For table 3, we need to manually type "threetable" on latex file in order to make such a long footnote.
 
 ### Table 4
