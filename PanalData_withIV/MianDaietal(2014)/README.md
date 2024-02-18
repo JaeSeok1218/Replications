@@ -14,4 +14,4 @@
 
 ### Table 4
 
-[<img src="./Results/Table4.png" title="Table 4" alt="Table 4" width="400.3" height="301"/>](./Table4.R)
+[<img src="./Results/Table4.png" title="Table 4" alt="Table 4" width="400.3" height="401"/>](./Table4.R)
