@@ -1,16 +1,24 @@
 \begin{table}
 \centering
-\begin{tabular}[t]{llrr}
+\caption{CONTROL VARIABLES}
+\centering
+\begin{threeparttable}
+\begin{tabular}[t]{cccc}
 \toprule
 Variable & Definition & Mean & SD\\
 \midrule
-lasset & Logged total assets & 14.2209244 & 1.3535991\\
-lasset$^{2}$ & Lasset squared & 204.0669129 & 35.6214947\\
-cash & Cash available & NA & NA\\
-opexp & Operating expenses & 0.5607617 & 2.1898591\\
-otherinc & Nonoperating income & -0.0107660 & 0.1232594\\
+lasset & Logged total assets & 14.221 & 1.354\\
+lasset\$\textasciicircum{}\{2\}\$ & Lasset squared & 204.067 & 35.621\\
+cash & Cash available & 0.148 & 0.214\\
+opexp & Operating expenses & 0.561 & 2.190\\
+otherinc & Nonoperating income & -0.011 & 0.123\\
 \addlinespace
-bankr & Bankruptcy indicator & 0.0660346 & 0.2483431\\
+bankr & Bankruptcy indicator & 0.066 & 0.248\\
 \bottomrule
 \end{tabular}
+\begin{tablenotes}
+\item \textit{Note: } 
+\item Number of observations is 248,513. cash, opexp, and otherinc are computed as percentage of total assets
+\end{tablenotes}
+\end{threeparttable}
 \end{table}

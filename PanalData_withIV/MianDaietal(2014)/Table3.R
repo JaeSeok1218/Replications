@@ -9,7 +9,7 @@ setwd("/Users/jaeseokoh/Library/Mobile Documents/com~apple~CloudDocs/Statistics 
 # Read data as '.csv'
 data <- read_dta("ap_pair_rep.dta")
 write.csv(data, "ap_pair.csv", row.names = FALSE)
-ap_data <- read.csv("ap_pair.csv")
+ap_data1 <- read.csv("ap_pair_rep.csv")
 
 data <- read_dta("city_pair_rep.dta")
 write.csv(data, "ct_pair.csv", row.names = FALSE)
