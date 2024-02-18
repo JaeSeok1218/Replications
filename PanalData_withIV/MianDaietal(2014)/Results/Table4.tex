@@ -1,0 +1,14 @@
+\begin{table}\centering
+	\caption{EFFECT OF COMPETITION ON PRICE LEVEL}
+	\centering
+	\begin{threeparttable}
+			\begin{tabular}[t]{lcccc}\toprule\multicolumn{1}{c}{} & \multicolumn{2}{c}{A. AirportPairs} & \multicolumn{2}{c}{B. City Pairs} \\\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5}  & log(P90) & log(P10) & log(P90)  & log(P10) \\\midrule
+				duo &  {-0.045}** &  {-0.120}*** &  {-0.043}* &  {-0.135}***\\ & ( {0.017}) & ( {0.012}) & ( {0.019}) & ( {0.013})\\
+				comp &  {-0.501}*** &  {-0.280}*** &  {-0.581}*** &  {-0.303}***\\ & ( {0.029}) & ( {0.020}) & ( {0.031}) & ( {0.018})\\\midrule
+				Num.Obs. &  {248512} &  {248512} &  {239734} &  {239734}\\\bottomrule\multicolumn{5}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** }\\
+				\end{tabular} \small
+				\begin{tablenotes} 
+					\item P90 represents the 90th percentile fare, and P10 represents the 10th percentile fare. The hat represents the instrumented endogenous variable. Carrier-route and year-quarter fixed effects are included in all specifications. Robust standard errors in parentheses are adjusted for correlation within market. Control variables are $\log$(asset), $\log^{2}$(asset), cash (as \% of asset), operating cost (as \% of asset), nonoperating net income (as \% of asset), and a dummy indicator if the carrier is under bankrupcy protection. The list of instruments is in section A3.
+				\end{tablenotes}
+	\end{threeparttable}
+\end{table}
