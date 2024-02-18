@@ -82,7 +82,7 @@ datasummary3 <- datasummary(Heading("Monopoly") * column1 + Heading("Duopoly") *
 # Using kableExtra, generate Latex Command lines
 kbl(datasummary3, booktabs = T, align = "c", caption = "PRICE DISPERSION BY MARKET STRUCTURE", "latex") %>%
   add_header_above(c(" ", "GINI" = 2, "HHI" = 2, "N" = 2)) %>%
-  footnote(general = " $N$ represents carrier counts. Definitions of monopoly, duopoly, and competitive route are in note 19. 
+  footnote(general = "N represents carrier counts. Definitions of monopoly, duopoly, and competitive route are in note 19. 
            Standard deviations are in parentheses. Number of observations is 248,513", threeparttable = T)
 
 

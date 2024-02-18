@@ -66,7 +66,9 @@ cm <- c('fit_hhi'    = "HHI",
         'fit_nc' = 'N')
 
 modelsummary(model, vcov=~rid, coef_map = cm, gof_map = c("nobs"), stars=TRUE, fmt=3, title = "NONMONOTONIC EFFECT OF COMPETITION", output = "latex")%>%
-    add_header_above(c(" ", "A. AirportPairs" = 4, "B. City Pairs" = 4))
+    add_header_above(c(" ", "A. AirportPairs" = 4, "B. City Pairs" = 4))%>%
+    footnote("The dependent variable is Gini, and the hat represents the instrumented endogenous variable. Carrier-route and year-quarter fixed effects are included in all specifications. Robust standard erros in parentheses are adjusted for correlation within market. Control variables are log(asset), log2(asset), cash (as % of asset), operating cost (as % of asset), and nonoperating net income (as % of asset), a dummy indicator if the carrier is under bankruptcy protextion. The list of instruments can be found in section A3."
+           , threeparttable = T)
 
 
 summary(model_iv_fe, cluster = "rid")
