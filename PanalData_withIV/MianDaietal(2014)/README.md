@@ -15,3 +15,7 @@
 ### Table 4
 
 [<img src="./Results/Table4.png" title="Table 4" alt="Table 4" width="400.3" height="401"/>](./Table4.R)
+
+### Table 5
+
+[<img src="./Results/Table5.png" title="Table 5" alt="Table 5" width="380.3" height="231"/>](./Table5.R)
