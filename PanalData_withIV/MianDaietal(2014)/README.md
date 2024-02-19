@@ -22,4 +22,4 @@
 
 ### Table 6
 
-[<img src="./Results/Table6.png" title="Table 6" alt="Table 6" width="380.3" height="181"/>](./Table6.R)
+[<img src="./Results/Table6.png" title="Table 6" alt="Table 6" width="380.3" height="280"/>](./Table6.R)
