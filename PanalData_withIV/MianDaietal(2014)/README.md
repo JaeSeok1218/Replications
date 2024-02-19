@@ -1,10 +1,10 @@
 ### Table 1
 
 <div id="Matching_Pennies">
-  <a href="./Coding/Matching_Pennies_with_Perfect_Information.tex">
+  <a href="./Table1.R">
     <img src="./Results/Table1.png" title="Table 1" alt="Table 1" width="400.3" height="231"/>
   </a>
-  <a href="./Coding/Matching_Pennies_with_Imperfect_Information.tex">
+  <a href="./Table2.R">
     <img src="./Results/Table2.png" title="Table 2" alt="Table 2" width="380.3" height="231"/>
   </a>
 </div>
