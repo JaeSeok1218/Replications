@@ -1,4 +1,25 @@
-### Tables
+# Main Model
+
+* Gini coefficient: The measure of price dispersion
+
+$Gini_{ijt} = \beta_{1}HHI_{jt} + \beta_{2}HHI_{jt}^{2} + \alpha X_{it} + \varepsilon_{ij} + \varepsilon_{t} + u_{ijt}$
+
+- $HHI_{j}$: route's market concentration
+- $X_{it}$: time-varying carrier control variables
+- $\varepsilon_{ij}$: time-invariant (route-carrier)
+- $\varepsilon_{t}$: time-variant (year-quarter)
+
+* Quadratic(Non-linear) effects of market concentration on price: $\beta_{1} > 0$ and $\beta_{2}<0$
+
+* Fixed Effects model with time fixed effects
+- Individual fixed effects: route-carrier
+- Time fixed effects: year-quarter
+- By employing 'time-varying carrier control variables', this paper controls time-varying individual effects.
+
+* Endogeneity Issue
+- Airlines might hesitate to enter the route when the prices are dispersed in low.
+
+# Tables
 
 <div id="Table 1 and 2">
   <a href="./Table1.R">
