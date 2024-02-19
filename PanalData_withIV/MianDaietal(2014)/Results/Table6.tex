@@ -1,0 +1,12 @@
+\begin{table}\centering
+	\caption{HETEROGENEOUS EFFECT OF COMPETITION}
+	\centering
+	\begin{threeparttable}
+		\begin{tabular}[t]{lcccccc}\toprule\multicolumn{1}{c}{ } & \multicolumn{3}{c}{A. AirportPairs} & \multicolumn{3}{c}{B. City Pairs} \\\cmidrule(l{3pt}r{3pt}){2-4} \cmidrule(l{3pt}r{3pt}){5-7}  & Low & Medium & High & Low  & Medium  & High \\\midrule
+			$\widehat{log(HHI)}$ &  {-0.029}*** &  {0.011}* &  {0.033}*** &  {-0.030}*** &  {0.027}*** &  {0.029}**\\ & ( {0.008}) & ( {0.005}) & ( {0.008}) & ( {0.007}) & ( {0.005}) & ( {0.010})\\\midrule
+			Num.Obs. &  {61252} &  {124828} &  {62432} &  {59124} &  {120395} &  {60215}\\\bottomrule\multicolumn{7}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+			\end{tabular}
+			\begin{tablenotes}\item \textit{Note: }The hat represents the instrumented endogenous variable. Carrier-route and year-quarter fixed effects are included in all specifications. Robust standard errors in parentheses are adjusted for correlation within market. control variables are $\log$(asset), $\log^{2}$(asset), cash (as \% of asset), operating cost (as \% of asset), and nonoperating net income (as \% of asset) a dummy indicator if the carrier is under bankruptcy protection. The list of instruments can be found in section A3.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
