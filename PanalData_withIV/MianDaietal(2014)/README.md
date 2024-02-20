@@ -10,7 +10,7 @@ $Gini_{ijt} = \beta_{1}HHI_{jt} + \beta_{2}HHI_{jt}^{2} + \alpha X_{it} + \varep
   - $\varepsilon_{ij}$: time-invariant (route-carrier)
   - $\varepsilon_{t}$: time-variant (year-quarter)
 
-* Quadratic(Non-linear) effects of market concentration on price: $\beta_{1} > 0$ and $\beta_{2}<0$
+* Quadratic(Non-linear) effects of market concentration on price dispersion: $\beta_{1} > 0$ and $\beta_{2}<0$
 
 * Fixed Effects model with time fixed effects
   - Individual fixed effects: route-carrier
