@@ -1,9 +1,9 @@
-######################################
-#Table1###############################
-#First Way############################by JaeSeok
+# Table 1
 library(tidyverse)
 library(modelsummary)
 library(kableExtra)
+
+setwd("/Users/jaeseokoh/Library/Mobile Documents/com~apple~CloudDocs/Statistics Tools(Lectures)/Stata/Fall2023 IO/HW4")
 
 #Filtering Data by dummies
 filtered_data1 <- data_ap %>%

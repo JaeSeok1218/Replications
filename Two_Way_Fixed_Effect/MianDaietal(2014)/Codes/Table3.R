@@ -8,6 +8,7 @@ library(kableExtra)
 library(haven)
 
 setwd("/Users/jaeseokoh/Library/Mobile Documents/com~apple~CloudDocs/Statistics Tools(Lectures)/Stata/Fall2023 IO/HW4")
+
 # Read data as '.csv'
 data <- read_dta("ap_pair_rep.dta")
 write.csv(data, "ap_pair.csv", row.names = FALSE)
