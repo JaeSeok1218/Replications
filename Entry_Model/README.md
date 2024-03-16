@@ -1,7 +1,7 @@
 # Brief Summary
-## Berry(1992)
+## Bresnahan and Reiss(1991)
 
-- **Research Question**: The effects of a airline's scale on the profitabiltiy of routes
+- **Research Question**:
 
 - **Data**:
 
